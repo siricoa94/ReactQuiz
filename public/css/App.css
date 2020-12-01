@@ -1,0 +1,115 @@
+body {
+    font-family: 'Audiowide', cursive;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-image: url("https://media0.giphy.com/media/sRHOB9D4S9DgM8N7Wt/giphy.gif?cid=ecf05e47ekeuz9zuy2tdgv5ibgq208vr2b8l04i2kzzrhp3u&rid=giphy.gif");
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+#pageContainer {
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+}
+#mainTitleDiv {
+    width: 95%;
+    margin-left: 2.5%;
+    padding-top: 10px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: 'Audiowide', cursive;
+    color: rgba(0, 0, 0, 0.74);
+    text-shadow: 4px 4px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 75px rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 0 0 .25rem .25rem;
+}
+#introDiv {
+    padding: 250px 150px 0px 150px;
+    font-family: 'Audiowide', cursive;
+    color: white;  
+}
+#introInnerDiv {
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.74);
+    text-shadow: 4px 4px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 75px rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: .25rem;
+}
+.contentContainer {
+    font-family: 'Audiowide', cursive;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 90%;
+    margin-left: 5%;
+    border-radius: .25rem;
+    padding: 2px;
+}
+.contentDiv {
+    font-family: 'Audiowide', cursive;
+    color: rgba(0, 0, 0, 0.74);
+    text-shadow: 4px 4px 5px rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2px;
+}
+#counterDiv > h1 {
+    font-size: 15px;
+}
+#startbtn {
+    font-family: 'Audiowide', cursive;
+    width: 150px;
+    height: 50px;
+    border: .5px solid white;
+    color: rgba(0, 0, 0, 0.74);
+    text-shadow: 4px 4px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 75px rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 1rem;
+    margin-top: 150px;
+}
+#startbtn:hover {
+    transform: scale(1.05);
+}
+.questionButton {
+    font-family: 'Audiowide', cursive;
+    border: .5px solid white;
+    color: rgba(0, 0, 0, 0.74);
+    text-shadow: 4px 4px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 75px rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 1rem;
+    margin: 0px 5px 0px 5px;
+}
+.questionButton:hover {
+    transform: scale(1.05);
+}
+.refreshBtn {
+    font-family: 'Audiowide', cursive;
+    border: .5px solid white;
+    color: rgba(0, 0, 0, 0.74);
+    text-shadow: 4px 4px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 75px rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 1rem;
+    margin: 0px 5px 0px 5px;
+}
+.refreshBtn:hover {
+    transform: scale(1.05);
+}
+@media only screen and (max-width: 600px) {
+    #introDiv {
+        padding: 50px 20px 0px 20px;
+        font-family: 'Audiowide', cursive;
+        color: white;  
+    }
+    #startbtn {
+        margin-top: 50px;
+    }
+  }
