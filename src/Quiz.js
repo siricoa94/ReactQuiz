@@ -12,7 +12,7 @@ export const quiz = [
       source: "https://www.w3schools.com/react/react_props.asp#:~:text=Props%20are%20arguments%20passed%20into,to%20components%20via%20HTML%20attributes."
     },
     {
-      question: "What best describes a React component",
+      question: "What best describes a React component?",
       options: ["A Javascript function that accepts arbitraty inputs and return React elements, which then describe what to be displayed", "They are Javascript function containers that render new elements to the screen", "A class based element which takes in arguments as parameters and renders to the display","Simply, a Javascript function"],
       answer: "A Javascript function that accepts arbitraty inputs and return React elements, which then describe what to be displayed",
       source: "https://reactjs.org/docs/components-and-props.html"
@@ -30,7 +30,7 @@ export const quiz = [
       source: "https://reactjs.org/"
     },
     {
-      question: "What is an example of a lifecycle method",
+      question: "What is an example of a lifecycle method?",
       options: ["componentWillSleep()", "render()", "document.render()","componentWillUnmount()"],
       answer: "componentWillUnmount()",
       source: "https://reactjs.org/docs/state-and-lifecycle.html"
@@ -48,7 +48,7 @@ export const quiz = [
       source: "https://reactjs.org/docs/hooks-intro.html"
     },
     {
-      question: "Using npm/yarn install on this command will build and configure many tools automatically",
+      question: "Using npm/yarn install on this command will build and configure many tools automatically?",
       options: ["create-react my-app", "create-react-app-my-app", "create-react-app my-app","create-react-app -app"],
       answer: "create-react-app my-app",
       source: "https://create-react-app.dev/"

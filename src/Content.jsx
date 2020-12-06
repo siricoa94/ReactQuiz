@@ -34,7 +34,7 @@ export default class Content extends React.Component {
         const usedQuestion = this.state.usedQuestions;
         usedQuestion.push(randomQuestion);
         const parseRandom = JSON.parse(randomQuestion);
-        let deconstructedQuestion = JSON.stringify(parseRandom.question);
+        let deconstructedQuestion = parseRandom.question;
         let questionAnswer = JSON.stringify(parseRandom.answer);
         // console.log("Q U E S T I O N ANSWER: " + questionAnswer);
         let temporaryBtnArrayOne = [];
@@ -50,7 +50,7 @@ export default class Content extends React.Component {
             message: deconstructedQuestion,
             options: temporaryBtnArrayOne,
             answer: questionAnswer
-        });   
+        });
     }
     
     countDown () {
@@ -161,7 +161,7 @@ export default class Content extends React.Component {
         } else {
             console.log("your good~" + newQuestion.length);
             let parsedQuestion = JSON.parse(newQuestion)
-            let deconstructedQuestionNew = JSON.stringify(parsedQuestion.question);
+            let deconstructedQuestionNew = parsedQuestion.question;
             let deconstructedQuestionAnswer = JSON.stringify(parsedQuestion.answer);
             let temporaryBtnArray = [];
             for (let i = 0; i < parsedQuestion.options.length; i ++) {

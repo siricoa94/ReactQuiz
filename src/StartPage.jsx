@@ -24,7 +24,7 @@ export default class StartPage extends React.Component {
                 {this.state.clicked ?
                     null :
                     <div>
-                        <div id="introDiv"><div id="introInnerDiv"><p>Welcome to Andrew's Silly React Quiz!</p><p>The rules are simple. You will have ten seconds to answer each question. There will be ten questions in random order. You must be quick! For if the timer should hit zero and you submit a correct answer, it will be scored as incorrect. At the end of the quiz you will see your final score and have the option to play again, have fun!</p></div></div>
+                        <div id="introDiv"><div id="introInnerDiv"><h3 id="welcomeTitleHello">Welcome to Andrew's Silly React Quiz!</h3><p>The rules are simple. You will have ten seconds to answer each question. There will be ten questions in random order. You must be quick! For if the timer should hit zero and you submit a correct answer, it will be scored as incorrect. At the end of the quiz you will see your final score and have the option to play again, have fun!</p></div></div>
                         <button onClick={this.startBtn} id="startbtn">Start</button>
                     </div>
                 }
